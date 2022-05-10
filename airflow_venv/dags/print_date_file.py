@@ -2,9 +2,10 @@ import airflow
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from datetime import timedelta
-0.0.0.0:8084
+
 # airflow db init
 # airflow webserver -p 8084
+# airflow scheduler
 # 0.0.0.0:8084
 
 default_args = {

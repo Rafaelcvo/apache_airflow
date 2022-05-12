@@ -56,7 +56,7 @@ with DAG(
     dag_id='meu_dag',
     default_args=default_args,
     schedule_interval=None,
-    tags=['hello_word'],
+    tags=['exemplo'],
 ) as dag:    
 
     # Vamos Definir a nossa Primeira Tarefa 

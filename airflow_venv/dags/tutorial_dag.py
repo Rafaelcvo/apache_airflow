@@ -1,5 +1,3 @@
-# Tutorial Dag youtube https://www.youtube.com/watch?v=4DGRqMoyrPk&t=461s
-
 from urllib import response
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
@@ -8,6 +6,8 @@ from datetime import datetime
 import pandas as pd
 import requests
 import json
+
+# Tutorial Dag youtube https://www.youtube.com/watch?v=4DGRqMoyrPk&t=461s
 
 def captura_conta_dados():
     url = "https://data.cityofnewyork.us/resource/rc75-m7u3.json"
